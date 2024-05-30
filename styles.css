@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #7961ff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+canvas {
+    border: 2px solid #333;
+    background-color: #bfb4ff;
+    background-image: url('assets/tabletennis.png');
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #7961ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7961ff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
